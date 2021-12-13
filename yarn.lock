@@ -1793,6 +1793,11 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
+"@openzeppelin/contracts@4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.4.0.tgz#4a1df71f736c31230bbbd634dfb006a756b51e6b"
+  integrity sha512-dlKiZmDvJnGRLHojrDoFZJmsQVeltVeoiRN7RK+cf2FmkhASDEblE0RiaYdxPNsUZa6mRG8393b9bfyp+V5IAw==
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
@@ -3082,7 +3087,6 @@ async-eventemitter@^0.2.2:
 
 async-eventemitter@ahultgren/async-eventemitter#fa06e39e56786ba541c180061dbf2c0a5bbf951c:
   version "0.2.3"
-  uid fa06e39e56786ba541c180061dbf2c0a5bbf951c
   resolved "https://codeload.github.com/ahultgren/async-eventemitter/tar.gz/fa06e39e56786ba541c180061dbf2c0a5bbf951c"
   dependencies:
     async "^2.4.0"
@@ -10641,10 +10645,10 @@ opencollective-postinstall@^2.0.0:
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
   integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
 
-opensea-js@^1.1.5:
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/opensea-js/-/opensea-js-1.1.11.tgz#1a1b9570117e304328ef29969620fb35346cb7d8"
-  integrity sha512-XKB4iFEWfK2bU5ne2ewvpaotjI2iPj/L7PRQ0j9GFTX5EBy6/A4Sy8B+lfeKSgOsy1GEmyM1DsvekfVqND/2ig==
+opensea-js@^1.2.1:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/opensea-js/-/opensea-js-1.2.7.tgz#af66d476f601a9d5825d546b3ead9dd238c714e2"
+  integrity sha512-s/ixGOIOpvqKiau3lSdUJF/osKVYh9yVZBpOslsk5bgRlbkJkBrfqCh0/2GH11EvX/wRYSaL70IYKvYew7g2pg==
   dependencies:
     bignumber.js "^4.1.0"
     ethereumjs-abi "git+https://github.com/ProjectWyvern/ethereumjs-abi.git"
@@ -10657,12 +10661,7 @@ opensea-js@^1.1.5:
     web3 "0.20.7"
     webpack "^3.10.0"
     wyvern-js "git+https://github.com/ProjectOpenSea/wyvern-js.git#v3.2.1"
-    wyvern-schemas "git+https://github.com/ProjectOpenSea/wyvern-schemas.git#v0.11.1"
-
-openzeppelin-solidity@~4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/openzeppelin-solidity/-/openzeppelin-solidity-4.1.0.tgz#6f514efa71feb582920c7836184beed2bfc13319"
-  integrity sha512-eOTwAu5q909S+Lqi4QnTQClY8KLpdnpiddrrrCuDSDaOgohBbl4VMcJj325k67m2qyalqvHu/2Fj5qqj5V9oLw==
+    wyvern-schemas "git+https://github.com/ProjectOpenSea/wyvern-schemas.git#v0.13.1"
 
 optimism@^0.14.0:
   version "0.14.1"
@@ -15836,9 +15835,9 @@ ws@^5.1.1:
     web3 "^0.20.4"
     webpack "^3.10.0"
 
-"wyvern-schemas@git+https://github.com/ProjectOpenSea/wyvern-schemas.git#v0.11.1":
-  version "0.10.7"
-  resolved "git+https://github.com/ProjectOpenSea/wyvern-schemas.git#e1a08fcf8ce2b11a0fe9cbdc7c9f77c59fadef26"
+"wyvern-schemas@git+https://github.com/ProjectOpenSea/wyvern-schemas.git#v0.13.1":
+  version "0.13.0"
+  resolved "git+https://github.com/ProjectOpenSea/wyvern-schemas.git#dda99d5bb08d780fc7aa357efaf00cdf8934b92a"
   dependencies:
     "@0xproject/utils" "^0.3.4"
     axios "^0.17.1"
